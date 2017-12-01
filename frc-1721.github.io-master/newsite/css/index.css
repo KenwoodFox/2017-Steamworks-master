@@ -1,0 +1,145 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  background: white;
+  color: black;
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.title {
+  font-family: 'Roboto Slab', serif;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+.video-ext-container {
+  height: 0;
+  position: relative;
+  z-index: -10;
+}
+.video-container {
+  top: -50%;
+  left: -50%;
+  width: 200vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+video {
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  position: relative;
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="10" /></filter></svg>#filter');
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+h4 {
+  font-size: 50px;
+}
+h3 {
+  padding-top: 10px;
+  font-size: 35px;
+}
+.sponsor-bar {
+  width: 100vw;
+  height: 20vh;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.2%;
+}
+img {
+  padding-left: 20px;
+}
+.nav {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ul.blep li  {
+  display: inline-block;
+  margin-right: 20px;
+}
+ul.blep a {
+  border: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.active {
+  border-bottom: 5px solid white;
+}
+a.menu:hover {
+  border-bottom: 5px solid white;
+}
+.robots {
+  background-color: white;
+  padding-top: 40px;
+}
+li {
+  list-style: none;
+}
+.big {
+  background: url("http://i.imgur.com/zD0kjnN.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.flat {
+  background: url("http://i.imgur.com/zOByMvy.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.hungry {
+  background: url("http://i.imgur.com/yVma4sX.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.text-center {
+	text-align: center;
+}
+h1 {
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+h2 {
+  padding-top: 100px;
+}
